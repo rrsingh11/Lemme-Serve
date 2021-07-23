@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    background:url("Images/mainbg.jpg") center/cover no-repeat fixed ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.title-text{
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+br{
+    padding: 30px;
+}
+/*----------HEADER-------*/
+.header{
+    min-height: 80vh;
+   
+}
+.hero{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 75%;
+}
+.hero h2{
+    color:rgb(236, 93, 93);
+}
+.hero .title{
+    color: red;
+    font-size: 75px;
+}
+
+/*---/Header------*/
+/*----------------------------------------*/
+.q{
+    text-align: center;
+    width: 100%;
+    height: 9rem;
+    padding: 80px;
+}
+
+/*-----------------------------------------*/
+
+/*-----------About Us------*/
+#about{
+    padding: 40px;
+}
+.about{
+    margin:30px 0;
+    display: flex;
+}
+
+.about-subtitle{
+      text-transform: capitalize;
+      color:red;
+      font-size: 25px;
+}
+.about-info{
+    margin-top: 10px;
+    line-height: 1.5;
+}
+/*---------/About Us-------*/
+
+/*--------GALLERY------------*/
+#gallery p{
+padding: 30px;
+}
+
+.gallery-text{
+    background: url("Images/a1.jpg") fixed no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    font-size: 100px;
+    line-height: 50vh;
+    color: white;
+    text-align: right;   
+}
+#gallery-center{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.gallery-item img{
+    width: 100%;
+    border-radius: 25px;
+}
+.gallery-item{
+    padding: 20px;
+}
+/*--------/GALLERY------------*/
+
+/*-------------Steps-----------*/
+.steps{
+    margin-left: auto;
+    margin-right: auto;
+}
+.step{
+    color: crimson;
+}
+/*-------------Steps-------------*/
+
+/*------------------Testimonials------------------------*/
+.testimonial{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.79)), url("Images/order-img.jpg");
+    background-size: cover;
+    color: #fff;
+    background-attachment: scroll;
+  }
+  blockquote{
+    font-style: italic;
+    padding: 3%;
+    position: relative;
+  }
+  blockquote:before{
+    content: "\0022";
+    font-size: 400%;
+    height: 70px;
+    left: -5px;
+    display: block;
+  }
+  cite{
+    font-size: 90%;
+    margin-top: 10px;
+    display:block;
+  
+  }
+  cite img{
+    height:60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: 30px;
+  
+  }
+  .t-text{
+      text-align: center;
+      color: white;
+  }
+
+/*--------------------/Testimonials-------------------------*/
+
+/*-------------Review--------------*/
+.form{
+    align-items: left ;
+}
+.contact-form{
+    width: 80%;
+    margin: 0 auto;
+  }
+  input[type=text],
+  input[type=email],
+  select,
+  textarea{
+  padding:7px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #bebebe;
+  }
+  textarea{
+    width: 300px;
+    height:145px
+  }
+  input[type=checkbox]{
+    margin:10px 5px 5px 0;
+  }
+.form-text{
+    color: black;
+    text-align: left;
+}
+
+/*-------------/Review--------------*/
+
+/*-------------FOOTER-------------*/
+.footer{
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 100%;
+    height: 5rem;
+}
+.footer p{
+    text-transform: capitalize;
+    color: white;
+    font-size: 18px; 
+    line-height: 5rem;
+    text-align: center;
+}
+/*---------------FOOTER------------*/
